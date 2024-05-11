@@ -75,9 +75,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/wind"
+                    android:text="@string/Wind"
                     android:textColor="@color/sonic_silver"
-                    android:textSize="@dimen/_10ssp" />
+                    android:textSize="@dimen/_9ssp" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/textWind"
@@ -127,7 +127,7 @@
                     android:gravity="center"
                     android:text="@string/humidity"
                     android:textColor="@color/sonic_silver"
-                    android:textSize="@dimen/_10ssp" />
+                    android:textSize="@dimen/_9ssp" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/textHumidity"
@@ -171,12 +171,12 @@
                     android:src="@drawable/rainy" />
 
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:layout_width="match_parent"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/chance_of_rain"
                     android:textColor="@color/sonic_silver"
-                    android:textSize="@dimen/_10ssp" />
+                    android:textSize="@dimen/_9ssp" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/textChanceOfRain"
